@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": "explicit"
+    },
+    "eslint.alwaysShowStatus": true,
+    "editor.wordWrap": "on"
+}

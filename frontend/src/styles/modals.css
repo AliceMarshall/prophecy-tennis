@@ -1,0 +1,210 @@
+.modals {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modals-wrapper {
+    position: relative;
+    width: 100%;
+    height: inherit;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Nunito';
+    color: #222;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-input-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 12px;
+}
+
+.modal-input-section:first-of-type {
+    margin-top: 10px;
+}
+
+.modal-input-label {
+    text-align: left;
+    font-family: 'Space Mono';
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    font-size: 13px;
+    line-height: 10px;
+    top: -5px;
+    position: relative;
+}
+
+.modal-input-sublabel {
+    text-align: left;
+    font-style: italic;
+    font-size: 13px;
+    text-wrap: wrap;
+}
+
+.modal-input-split {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.modal-range-label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.modal-input-selections {
+    display: flex;
+    justify-content: center;
+    margin: 6px 0 8px;
+    font-family: 'Space Mono';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.modal-input-selection {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background-image: #fff;
+    color: #000;
+    border: none;
+    margin: 0 8px;
+    padding: 6px 14px;
+    text-align: inherit;
+    font: inherit;
+    border-radius: 6px;
+    appearance: none;
+    cursor: pointer;
+    background-size: 100%;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+}
+
+.modal-input-selection.selected {
+    background-image: linear-gradient(157deg, #b41804, #f50 80%);
+    color: #fff;
+}
+
+.modal-input-selection:before {
+    border-radius: inherit;
+    background-image: linear-gradient(157deg, rgb(180, 24, 4, 0.5), rgba(255, 85, 0, 0.5) 80%);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -100;
+    transition: opacity 0.3s;
+}
+
+.modal-input-selection:hover:before {
+    opacity: 1;
+}
+
+.modal input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Nunito';
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+input[type=text] {
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type=number] {
+    padding-left: 20px;
+    margin: 2px 5px 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.modal-errors {
+    height: 35px;
+    margin-top: -4px;
+    font-size: 14px;
+    color: #c81616;
+}
+
+.modal-submit {
+    margin: 10px 0;
+    font-family: 'Space Mono';
+}
+
+.modal-submit-button {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background-image: linear-gradient(157deg, #8f00ff, #0038ff 80%);
+    color: #fff;
+    border: none;
+    margin: 0 8px;
+    padding: 8px 20px;
+    text-align: inherit;
+    font: inherit;
+    border-radius: 6px;
+    appearance: none;
+    cursor: pointer;
+    background-size: 100%;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+}
+
+.modal-submit-button:before {
+    border-radius: inherit;
+    background-image: linear-gradient(157deg, #1ecbbb, #0038ff 90%);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -100;
+    transition: opacity 0.3s;
+}
+
+.modal-submit-button:hover:before {
+    opacity: 1;
+}

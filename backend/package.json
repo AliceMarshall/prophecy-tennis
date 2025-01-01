@@ -1,0 +1,15 @@
+{
+  "name": "prophecy-tennis-backend",
+  "version": "1.0.0",
+  "description": "The API for Prophecy Tennis",
+  "main": "index.js",
+  "author": "Alice Marshall",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
