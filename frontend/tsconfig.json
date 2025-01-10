@@ -11,13 +11,25 @@
         "strict": true,
         "sourceMap": true,
         "target": "esnext",
+        "declaration": true,
         "plugins": [
             {
                 "name": "typescript-plugin-css-modules"
             }
         ],
+        "baseUrl": "..",
+        "paths": {
+            "jose/jwt/*": [
+                "node_modules/jose/dist/browser/jwt/*"
+            ]
+        }
     },
     "exclude": [
         "node_modules"
+    ],
+    "include": [
+        "src/**/*.d.ts",
+        "src/**/*.ts",
+        "src/components/pages/results.tsx"
     ]
 }
