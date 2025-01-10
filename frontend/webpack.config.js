@@ -52,7 +52,10 @@ module.exports = {
             favicon: './src/assets/favicon.ico',
         }),
         new CopyPlugin({
-            patterns: [{ from: 'src/assets/images', to: 'assets' }],
+            patterns: [
+                { from: 'src/assets/images', to: 'assets' },
+                { from: '_redirects', to: '' },
+            ],
         }),
         new MiniCssExtractPlugin(),
         new webpack.DefinePlugin({
