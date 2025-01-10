@@ -3,5 +3,10 @@
 /frontend/node_modules
 
 /build
-/backend/build
+/backend/dist
 /frontend/build
+
+*/.env
+*/.env.development
+*/yarn-error.log
+*/eslint.config.mjs
