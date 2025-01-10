@@ -26,6 +26,7 @@
 
 .title p {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .title-top {
@@ -60,4 +61,26 @@
 
 .profile-icon img {
     width: 100%;
+}
+
+.too-small {
+    display: none;
+}
+
+@media only screen and (max-width: 550px) {
+    .profile {
+        display: none;
+    }
+
+    .mens-draw {
+        display: none;
+    }
+
+    .too-small {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
 }
