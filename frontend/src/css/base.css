@@ -43,7 +43,8 @@
 }
 
 .base-nav-logo.olympics img,
-.base-nav-logo.us-open img {
+.base-nav-logo.us-open img,
+.base-nav-logo.aus img {
     width: 85px;
     margin: 0 20px;
     margin: 0 20px;
@@ -55,6 +56,10 @@
 }
 
 .nav-logo-us-open {
+    width: 100px;
+}
+
+.nav-logo-aus {
     width: 100px;
 }
 

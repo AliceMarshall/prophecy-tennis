@@ -1,0 +1,493 @@
+export const starterNodes = [
+    {
+        width: 148,
+        height: 79,
+        id: '1',
+        type: 'attributeNode',
+        position: {
+            x: 168.23082297382206,
+            y: -38.76987568586492,
+        },
+        data: {
+            name: 'Cost',
+            units: '$',
+            range: {
+                min: 5,
+                max: 40,
+            },
+            positiveScale: false,
+            label: 'Cost',
+            weighting: 0.8,
+        },
+        positionAbsolute: {
+            x: 168.23082297382206,
+            y: -38.76987568586492,
+        },
+        selected: false,
+        dragging: false,
+    },
+    {
+        width: 148,
+        height: 79,
+        id: '2',
+        type: 'attributeNode',
+        position: {
+            x: 332.15388198254806,
+            y: -36.61599370331683,
+        },
+        data: {
+            name: 'Taste',
+            units: '',
+            range: {
+                min: 0,
+                max: 10,
+            },
+            positiveScale: true,
+            label: 'Taste',
+            weighting: 1,
+        },
+        positionAbsolute: {
+            x: 332.15388198254806,
+            y: -36.61599370331683,
+        },
+        selected: false,
+        dragging: false,
+    },
+    {
+        width: 148,
+        height: 79,
+        id: '3',
+        type: 'attributeNode',
+        position: {
+            x: 496.076940991274,
+            y: -36.61599370331686,
+        },
+        data: {
+            name: 'Protein',
+            units: 'grams',
+            range: {
+                min: 0,
+                max: 60,
+            },
+            positiveScale: true,
+            label: 'Protein',
+            weighting: 0.7,
+        },
+        positionAbsolute: {
+            x: 496.076940991274,
+            y: -36.61599370331686,
+        },
+        selected: false,
+        dragging: false,
+    },
+    {
+        width: 148,
+        height: 79,
+        id: '4',
+        type: 'attributeNode',
+        position: {
+            x: 664.3077639650961,
+            y: -38.76987568586489,
+        },
+        data: {
+            name: 'Calories',
+            units: 'kcal',
+            range: {
+                min: 0,
+                max: 700,
+            },
+            positiveScale: false,
+            label: 'Calories',
+            weighting: 0.4,
+        },
+        positionAbsolute: {
+            x: 664.3077639650961,
+            y: -38.76987568586489,
+        },
+        selected: false,
+        dragging: false,
+    },
+    {
+        width: 148,
+        height: 270,
+        id: '5',
+        type: 'optionNode',
+        position: {
+            x: 222.57268553007265,
+            y: -390.6184504361098,
+        },
+        data: {
+            label: 'Cheeseburger',
+            attributes: [
+                {
+                    id: '1',
+                    name: 'Cost',
+                    units: '$',
+                    range: {
+                        min: 5,
+                        max: 40,
+                    },
+                    positiveScale: false,
+                    label: 'Cost',
+                    weighting: 1,
+                    value: 22,
+                    score: 51,
+                },
+                {
+                    id: '2',
+                    name: 'Taste',
+                    units: '',
+                    range: {
+                        min: 0,
+                        max: 10,
+                    },
+                    positiveScale: true,
+                    label: 'Taste',
+                    weighting: 1,
+                    value: 8,
+                    score: 80,
+                },
+                {
+                    id: '3',
+                    name: 'Protein',
+                    units: 'grams',
+                    range: {
+                        min: 0,
+                        max: 60,
+                    },
+                    positiveScale: true,
+                    label: 'Protein',
+                    weighting: 1,
+                    value: 38,
+                    score: 63,
+                },
+                {
+                    id: '4',
+                    name: 'Calories',
+                    units: 'kcal',
+                    range: {
+                        min: 0,
+                        max: 700,
+                    },
+                    positiveScale: false,
+                    label: 'Calories',
+                    weighting: 1,
+                    value: 700,
+                    score: 0,
+                },
+            ],
+        },
+        selected: false,
+        positionAbsolute: {
+            x: 222.57268553007265,
+            y: -390.6184504361098,
+        },
+        dragging: false,
+    },
+    {
+        width: 200,
+        height: 132,
+        id: '6',
+        type: 'resultsNode',
+        position: {
+            x: 387.5496446795287,
+            y: 92.23067848257767,
+        },
+        data: {
+            results: [
+                {
+                    name: 'Cheeseburger',
+                    weightedScore: 56.862068965517246,
+                },
+                {
+                    name: 'Crab Linguini',
+                    weightedScore: 48.41379310344828,
+                },
+                {
+                    name: 'Marmite Sandwich',
+                    weightedScore: 64.79310344827587,
+                },
+            ],
+        },
+        selected: false,
+        positionAbsolute: {
+            x: 387.5496446795287,
+            y: 92.23067848257767,
+        },
+        dragging: false,
+    },
+    {
+        width: 148,
+        height: 270,
+        id: '7',
+        type: 'optionNode',
+        position: {
+            x: 410.96389270986765,
+            y: -392.69829536719124,
+        },
+        data: {
+            label: 'Crab Linguini',
+            attributes: [
+                {
+                    id: '1',
+                    name: 'Cost',
+                    units: '$',
+                    range: {
+                        min: 5,
+                        max: 40,
+                    },
+                    positiveScale: false,
+                    label: 'Cost',
+                    weighting: 1,
+                    value: 23,
+                    score: 48,
+                },
+                {
+                    id: '2',
+                    name: 'Taste',
+                    units: '',
+                    range: {
+                        min: 0,
+                        max: 10,
+                    },
+                    positiveScale: true,
+                    label: 'Taste',
+                    weighting: 1,
+                    value: 6,
+                    score: 60,
+                },
+                {
+                    id: '3',
+                    name: 'Protein',
+                    units: 'grams',
+                    range: {
+                        min: 0,
+                        max: 60,
+                    },
+                    positiveScale: true,
+                    label: 'Protein',
+                    weighting: 1,
+                    value: 29,
+                    score: 48,
+                },
+                {
+                    id: '4',
+                    name: 'Calories',
+                    units: 'kcal',
+                    range: {
+                        min: 0,
+                        max: 700,
+                    },
+                    positiveScale: false,
+                    label: 'Calories',
+                    weighting: 1,
+                    value: 511,
+                    score: 27,
+                },
+            ],
+        },
+        selected: false,
+        positionAbsolute: {
+            x: 410.96389270986765,
+            y: -392.69829536719124,
+        },
+        dragging: false,
+    },
+    {
+        width: 148,
+        height: 270,
+        id: '8',
+        type: 'optionNode',
+        position: {
+            x: 594.1134890575426,
+            y: -393.23780591617685,
+        },
+        data: {
+            label: 'Marmite Sandwich',
+            attributes: [
+                {
+                    id: '1',
+                    name: 'Cost',
+                    units: '$',
+                    range: {
+                        min: 5,
+                        max: 40,
+                    },
+                    positiveScale: false,
+                    label: 'Cost',
+                    weighting: 1,
+                    value: 15,
+                    score: 71,
+                },
+                {
+                    id: '2',
+                    name: 'Taste',
+                    units: '',
+                    range: {
+                        min: 0,
+                        max: 10,
+                    },
+                    positiveScale: true,
+                    label: 'Taste',
+                    weighting: 1,
+                    value: 9,
+                    score: 90,
+                },
+                {
+                    id: '3',
+                    name: 'Protein',
+                    units: 'grams',
+                    range: {
+                        min: 0,
+                        max: 60,
+                    },
+                    positiveScale: true,
+                    label: 'Protein',
+                    weighting: 1,
+                    value: 8,
+                    score: 13,
+                },
+                {
+                    id: '4',
+                    name: 'Calories',
+                    units: 'kcal',
+                    range: {
+                        min: 0,
+                        max: 700,
+                    },
+                    positiveScale: false,
+                    label: 'Calories',
+                    weighting: 1,
+                    value: 136,
+                    score: 80,
+                },
+            ],
+        },
+        selected: true,
+        positionAbsolute: {
+            x: 594.1134890575426,
+            y: -393.23780591617685,
+        },
+        dragging: false,
+    },
+    {
+        width: 252,
+        height: 97,
+        id: '9',
+        type: 'winnerNode',
+        position: {
+            x: 362.2272188554271,
+            y: 254.39215793914178,
+        },
+        data: {
+            results: [
+                {
+                    name: 'Cheeseburger',
+                    weightedScore: 56.862068965517246,
+                },
+                {
+                    name: 'Crab Linguini',
+                    weightedScore: 48.41379310344828,
+                },
+                {
+                    name: 'Marmite Sandwich',
+                    weightedScore: 64.79310344827587,
+                },
+            ],
+        },
+        positionAbsolute: {
+            x: 362.2272188554271,
+            y: 254.39215793914178,
+        },
+        selected: false,
+        dragging: false,
+    },
+];
+
+export const starterEdges = [
+    {
+        id: 'e5-1',
+        source: '5',
+        target: '1',
+    },
+    {
+        id: 'e5-2',
+        source: '5',
+        target: '2',
+    },
+    {
+        id: 'e5-3',
+        source: '5',
+        target: '3',
+    },
+    {
+        id: 'e5-4',
+        source: '5',
+        target: '4',
+    },
+    {
+        id: 'e1-6',
+        source: '1',
+        target: '6',
+    },
+    {
+        id: 'e2-6',
+        source: '2',
+        target: '6',
+    },
+    {
+        id: 'e3-6',
+        source: '3',
+        target: '6',
+    },
+    {
+        id: 'e4-6',
+        source: '4',
+        target: '6',
+    },
+    {
+        id: 'e7-1',
+        source: '7',
+        target: '1',
+    },
+    {
+        id: 'e7-2',
+        source: '7',
+        target: '2',
+    },
+    {
+        id: 'e7-3',
+        source: '7',
+        target: '3',
+    },
+    {
+        id: 'e7-4',
+        source: '7',
+        target: '4',
+    },
+    {
+        id: 'e8-1',
+        source: '8',
+        target: '1',
+    },
+    {
+        id: 'e8-2',
+        source: '8',
+        target: '2',
+    },
+    {
+        id: 'e8-3',
+        source: '8',
+        target: '3',
+    },
+    {
+        id: 'e8-4',
+        source: '8',
+        target: '4',
+    },
+    {
+        id: 'e6-9',
+        source: '6',
+        target: '9',
+    },
+];

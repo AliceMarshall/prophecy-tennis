@@ -2,16 +2,16 @@ export const content = {
     howItWorks: {
         row1: [
             {
-                text: 'Participants must complete this form registering their interest before Sunday 25th August.',
+                text: 'Participants must complete this form registering their interest before Saturday 11th January.',
                 // text: "Participants must complete this form registering their interest to play either both draws, or Men's only, or Women's only before Friday 28th June.",
             },
             {
-                text: 'Registered players will receive their sheets with the draw(s) to be filled out from Friday 23rd August, in the evening.',
+                text: 'Registered players will receive their sheets with the draw(s) to be filled out from Friday 10th January.',
             },
         ],
         row2: [
             {
-                text: 'Draws must be completed before the first match starts, on <strong>Monday 26st August at 4pm BST</strong>.',
+                text: 'Draws must be completed before the first match starts, on <strong>Sunday 12th January at 12am GMT</strong> due to matches starting at 11am local time.',
             },
             {
                 text: 'Payment must be completed before the tournament begins.',

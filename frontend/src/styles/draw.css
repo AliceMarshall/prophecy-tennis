@@ -1,0 +1,32 @@
+.tournament-draw {
+    margin-top: 210px;
+    margin-bottom: 45px;
+}
+
+.seed-item:nth-child(2n+1):not(:last-child)::after {
+    border-right: 2px solid rgb(255, 255, 255) !important;
+}
+
+.seed-item:nth-child(2n+1):not(:last-child)::after {
+    border-top: 2px solid rgb(255, 255, 255) !important;
+}
+
+.seed-item:nth-child(2n)::after {
+    border-right: 2px solid rgb(255, 255, 255) !important;
+}
+
+.seed-item:nth-child(2n)::after {
+    border-bottom: 2px solid rgb(255, 255, 255) !important;
+}
+
+.seed-item:nth-child(2n)::before {
+    border-top: 2px solid rgb(255, 255, 255) !important;
+}
+
+.seed-games {
+    display: flex;
+}
+
+.seed-game {
+    margin: 0px 4px;
+}
