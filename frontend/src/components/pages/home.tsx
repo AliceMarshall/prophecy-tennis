@@ -87,7 +87,7 @@ const Home = () => {
                 <div className='cover' />
                 <div className='docs-section'>
                     <div className='docs-description'>
-                        This Edition will be for Men and
+                        We are back with another Prophecy Tennis. This will be our 5th one for Wimbledon 2025. This Edition will be for Men and
                         Women&apos;s Singles Tournaments.
                     </div>
                 </div>
