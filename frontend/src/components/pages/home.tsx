@@ -13,18 +13,18 @@ const Home = () => {
                 <section className='header'>
                     <div className='row'>
                         <div className='base-logo'>
-                            <img
+                            {/* <img
                                 src='/assets/LOGO_australianopen.png'
                                 alt='Prophecy Tennis Logo - Australian Open'
-                            />
+                            /> */}
                             {/* <img
                                 src='/assets/LOGO.png'
                                 alt='Prophecy Tennis Logo'
                             /> */}
-                            {/* <img
+                            <img
                                 src='/assets/LOGO_wimbledon.png'
                                 alt='Prophecy Tennis - Wimbledon Logo'
-                            /> */}
+                            />
                             {/* <img
                                 src='/assets/LOGO_us-open.png'
                                 alt='Prophecy Tennis - Olympics Logo'
@@ -51,20 +51,20 @@ const Home = () => {
                 </section>
                 <nav className='navbar has-docked-nav'>
                     <div className='base-nav-title'>
-                        Australian Open 2025 Edition
+                        Wimbledon 2025 Edition
                     </div>
                     <div className='base-nav-logo aus'>
                         <span className='base-nav-line' />
-                        <img
+                        {/* <img
                             src='/assets/australian-open.png'
                             alt=''
                             className='nav-logo-aus'
-                        />
-                        {/* <img
+                        /> */}
+                        <img
                             src='/assets/wimbledon.svg'
                             alt=''
                             className='nav-logo-wimbledon'
-                        /> */}
+                        />
                         {/* <img
                             src='/assets/us-open.png'
                             alt=''
@@ -87,10 +87,7 @@ const Home = () => {
                 <div className='cover' />
                 <div className='docs-section'>
                     <div className='docs-description'>
-                        It&apos;s a new year and a new tennis season. After
-                        completing our first 3 Grand Slam Prophecy Tennis
-                        competitions, we are now back with our first Australian
-                        Open Edition in 2025. This Edition will be for Men and
+                        This Edition will be for Men and
                         Women&apos;s Singles Tournaments.
                     </div>
                 </div>
