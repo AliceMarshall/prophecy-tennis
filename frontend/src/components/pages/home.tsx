@@ -200,16 +200,16 @@ const Home = () => {
                 </div>
             </div>
             <div className='docs-grass'>
-                {/* <img
+                <img
                     className='docs-grass-img'
                     src='/assets/grass.png'
                     alt=''
-                /> */}
-                <img
+                />
+                {/* <img
                     className='docs-grass-img'
                     src='/assets/hard-court-us.jpg'
                     alt=''
-                />
+                /> */}
                 {/* <img className='docs-clay-img' src='/assets/clay.jpg' alt='' /> */}
             </div>
         </>
