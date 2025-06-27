@@ -76,7 +76,7 @@ const Home = () => {
                 <div className='base-nav-actions'>
                     <a
                         className='button button-primary base-cta'
-                        href='https://forms.gle/UZew2QWgrJPA9Gi79'
+                        href='https://forms.gle/UM3rp5DVtewiZgrn8'
                         target='_blank'
                         rel='noreferrer'
                     >
